@@ -12,6 +12,10 @@ public:
 					number /= 2;
 				}
 			}
+			else if (number == 6) {
+				ret.push_back(2);
+				ret.push_back(3);
+			}
 			else {
 				ret.push_back(number);
 			}
