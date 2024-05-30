@@ -15,6 +15,10 @@ public:
 					}
 				}
 			}
+			else if (number == 9) {
+				ret.push_back(3);
+				ret.push_back(3);
+			}
 			else {
 				ret.push_back(number);
 			}
